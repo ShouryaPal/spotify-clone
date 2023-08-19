@@ -1,4 +1,4 @@
-import  * as Dialog from '@radix-ui/react-dialog';
+import * as Dialog from '@radix-ui/react-dialog';
 import { IoMdClose } from 'react-icons/io';
 
 interface ModalProps {
@@ -101,4 +101,3 @@ const Modal: React.FC<ModalProps> = ({
 }
  
 export default Modal;
-
